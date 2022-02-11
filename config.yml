@@ -1,0 +1,29 @@
+#######################################
+## Paths to desired folder
+#######################################
+folder:
+  download: 'c:\Users\silas\Downloads'
+  music: 'c:\Users\silas\OneDrive\Music'
+  document: 'c:\Users\silas\OneDrive\Documentos'
+  image: 'c:\Users\silas\OneDrive\Imagens'
+
+#######################################
+## Mapping between each extensions
+## Everything that wont be defined here will be deleted
+#######################################
+extensions:
+  image:
+    - .jpg
+    - .png
+    - .jpeg
+  document:
+    - .pdf
+    - .zip
+    - .txt
+    - .json
+    - .xlsx
+    - .xls
+    - .doc
+    - .docx
+  music:
+    - .mp3
