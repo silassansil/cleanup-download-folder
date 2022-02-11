@@ -9,7 +9,3 @@ def define_destination_path(_extension):
     return _folders.get(
         _type_file, None
     )
-
-
-if __name__ == '__main__':
-    define_destination_path('.pdf')
