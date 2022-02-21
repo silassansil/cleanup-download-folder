@@ -2,14 +2,19 @@
 ## Paths to desired folder
 #######################################
 folder:
-  download: 'c:\Users\silas\Downloads'
-  music: 'c:\Users\silas\OneDrive\Music'
-  document: 'c:\Users\silas\OneDrive\Documentos'
-  image: 'c:\Users\silas\OneDrive\Imagens'
+  download: '/Users/slssasi/Downloads'
+  music: '/Users/slssasi/Music'
+  document: '/Users/slssasi/Documents'
+  image: '/Users/slssasi/Pictures'
+
+#######################################
+## delete unknown files
+#######################################
+delete:
+  unknown: false
 
 #######################################
 ## Mapping between each extensions
-## Everything that wont be defined here will be deleted
 #######################################
 extensions:
   image:
@@ -25,5 +30,7 @@ extensions:
     - .xls
     - .doc
     - .docx
+    - .pptx
+    - .yml
   music:
     - .mp3
